@@ -3,15 +3,15 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use App\Http\Module\Product\Domain\Model\Product;
+use App\Http\Module\Product\Domain\Model\User;
 
-class ProductSeeder extends Seeder
+class UserSeeder extends Seeder
 {
     /**
      * Run the database seeds.
      */
     public function run(): void
     {
-        Product::factory()->count(10)->create();
+        User::factory()->count(10)->create();
     }
 }

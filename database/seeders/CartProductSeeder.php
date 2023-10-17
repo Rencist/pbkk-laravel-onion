@@ -2,9 +2,8 @@
 
 namespace Database\Seeders;
 
-use App\Models\CartProduct;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use App\Http\Module\Product\Domain\Model\CartProduct;
 
 class CartProductSeeder extends Seeder
 {
