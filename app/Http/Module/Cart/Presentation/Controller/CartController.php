@@ -1,13 +1,14 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Module\Cart\Presentation\Controller;
 
-use App\Http\Module\Product\Domain\Model\Product;
-use App\Models\Cart;
-use App\Models\CartProduct;
-use App\Models\User;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
+use app\Http\Module\User\Domain\Model\User;
+use App\Http\Module\Product\Domain\Model\Cart;
+use App\Http\Module\Product\Domain\Model\Product;
+use App\Http\Module\Product\Domain\Model\CartProduct;
 
 class CartController extends Controller
 {

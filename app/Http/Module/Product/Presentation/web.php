@@ -7,3 +7,4 @@ Route::get('ping', function(){
 });
 
 Route::post('create_product', [\App\Http\Module\Product\Presentation\Controller\ProductController::class, 'createProduct']);
+// Route::get('/products', [ProductController::class, 'index'])->name('product');

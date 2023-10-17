@@ -32,5 +32,3 @@ Route::get('/cart/{id}/add', [CartController::class, 'add'])->name('cart.add');
 Route::put('/cart/{id}/add', [CartController::class, 'update'])->name('cart.add.submit');
 Route::delete('/cart/{cart_id}/remove/{product_id}', [CartController::class, 'remove'])->name('cart.product.remove');
 Route::delete('/cart/{id}', [CartController::class, 'destroy'])->name('cart.delete');
-
-Route::get('/products', [ProductController::class, 'index'])->name('product');
